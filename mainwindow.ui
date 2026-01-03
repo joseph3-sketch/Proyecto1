@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>527</width>
-    <height>293</height>
+    <width>815</width>
+    <height>511</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -43,7 +43,7 @@ color: rgb(94, 255, 228);</string>
    <widget class="QLineEdit" name="nombreAgregar">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>150</x>
       <y>10</y>
       <width>113</width>
       <height>24</height>
@@ -163,49 +163,14 @@ color: rgb(94, 255, 228);</string>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>-10</y>
+      <x>270</x>
+      <y>0</y>
       <width>21</width>
       <height>271</height>
      </rect>
     </property>
     <property name="orientation">
      <enum>Qt::Orientation::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>61</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT</family>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Promedio</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="resultado">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>10</y>
-      <width>141</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="textInteractionFlags">
-     <set>Qt::TextInteractionFlag::TextEditable</set>
     </property>
    </widget>
    <widget class="QPushButton" name="AgregarButton">
@@ -224,9 +189,9 @@ color: rgb(94, 255, 228);</string>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>40</y>
-      <width>211</width>
+      <x>310</x>
+      <y>290</y>
+      <width>121</width>
       <height>16</height>
      </rect>
     </property>
@@ -237,33 +202,75 @@ color: rgb(94, 255, 228);</string>
      </font>
     </property>
     <property name="text">
-     <string>Nombre del juego agregado</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="resultadoNombre">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>60</y>
-      <width>231</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="problemas">
+   <widget class="QTableWidget" name="mostarLista">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>220</y>
-      <width>261</width>
+      <x>320</x>
+      <y>70</y>
+      <width>321</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>90</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>140</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Eliminar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>190</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ganador</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>30</y>
+      <width>121</width>
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT</family>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string/>
+     <string>Lista de Juegos </string>
     </property>
    </widget>
   </widget>
@@ -272,8 +279,8 @@ color: rgb(94, 255, 228);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>527</width>
-     <height>21</height>
+     <width>815</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
