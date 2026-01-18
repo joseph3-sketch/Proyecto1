@@ -29,6 +29,9 @@ public:
 private slots:
     void on_AgregarButton_clicked();
     void on_mostarLista_cellClicked(int row, int column);
+    void on_actualizar_clicked();
+    void on_eliminar_clicked();
+
 
 private:
     Ui::MainWindow *ui;
